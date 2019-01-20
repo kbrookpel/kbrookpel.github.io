@@ -1,0 +1,248 @@
+
+
+body {
+  font-family: "Bookman Old Style";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Cambria";
+}
+
+p {
+  color: #fff;
+}
+
+a {
+  text-decoration:none;
+  color:inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  color:#900c3f;
+}
+/* Headings */
+
+.big-heading {
+  font-family: "Cambria";
+  font-weight:bold;
+  font-size: 3rem;
+  line-height: 1.5;
+  text-shadow:5px 5px 3px #000;
+}
+
+.header {
+  background-color:rgba(35, 87, 133, 0.57);
+  border-radius:5%;
+  padding: 2% 2% 0;
+}
+
+.section-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 3% 15%;
+}
+
+/* Sections */
+
+.color-section {
+  background-color: #235784;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+.white-section p {
+    color:#575757;
+}
+
+
+/* Navigation Bar */
+
+.phone {
+  margin-top:40px;
+  padding-left:20px;
+  font-size:1.5rem;
+  text-shadow:5px 5px 5px #000;
+}
+
+.phone a {
+  text-decoration:none;
+  color:inherit;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.logo {
+  width:200px;
+  border-radius:3%;
+}
+
+.nav-item {
+  padding: 0 20px;
+}
+
+
+.nav-link {
+  font-size: 1.5rem;
+  font-family: "Cambria";
+  color:#fff !important;
+  text-shadow:5px 5px 5px #000;
+}
+
+/* Buttons */
+
+.estimate-button {
+  margin: 3% 3% 5% 0;
+  background-color:#900c3f;
+  padding:2% 18%;
+  font-size:1.5rem;
+}
+
+/* Modal Content */
+
+.modal-content {
+color:black;
+}
+
+.modal-title {
+  text-align:center !important;
+}
+
+.modal-content p {
+  color:#575757;
+}
+/* Title Section */
+
+#title {
+  color: #fff;
+  text-align: center;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 1%;
+  background-image: url("http://i68.tinypic.com/10hoo41.jpg");
+  background-size:cover;
+  background-position:center;
+
+}
+
+.title-image {
+  width:60%;
+  margin-left:40%;
+
+}
+
+/* Scaling */
+
+@media (max-width: 997px) {
+
+  #title {
+    text-align:center;
+  }
+
+  .estimate-button {
+    margin: 5% 3% 5% 0;
+  }
+
+  .logo {
+    width:30%;
+  }
+
+  .title-image {
+    margin:auto;
+  }
+}
+
+/* Services Section */
+
+#services {
+  position: relative;
+}
+
+#services p {
+  color:#575757;
+}
+
+.service-title {
+  font-size: 1.5rem;
+}
+
+.service-box {
+  padding: 3%;
+}
+
+
+.icon {
+  color: #235784;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #900c3f;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  background-color: #235784;
+  color:#fff;
+}
+
+.testimonial-text {
+  font-size: 2.5rem;
+  line-height: 1.5;
+
+}
+
+/* About Us Section */
+
+#aboutus p {
+  line-height:2;
+  padding:3% 5% 0;
+}
+
+/* CTA Section */
+#cta {
+  background-color:#900c3f;
+  padding:0 5%;
+}
+
+#cta .big-heading {
+  text-shadow:none;
+}
+
+.contact-button {
+  margin-top:10px;
+  padding:1% 5%;
+}
+
+/* Footer Section */
+
+
+.social-icon {
+  margin: 20px 10px;
+  color:#235784;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
