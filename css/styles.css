@@ -115,13 +115,14 @@ a:hover {
 color:black;
 }
 
-.modal-title {
-  text-align:center !important;
+.modal-header {
+  display:block;
 }
 
 .modal-content p {
   color:#575757;
 }
+
 /* Title Section */
 
 #title {
