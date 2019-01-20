@@ -36,7 +36,7 @@
       <!-- Nav Bar -->
       <nav class="navbar navbar-expand-lg navbar-dark">
 
-        <img class="logo" href="" src="images\logo1.png">
+        <img class="logo" href="#" src="images/logo.png">
         <p class="phone">
           <span itemprop="telephone">Call Us <a class="fas fa-phone" href="tel:+12313139202"> 231-313-9202</a></span></p>
 
@@ -74,60 +74,60 @@
           <button type="button" class="btn btn-dark btn-lg estimate-button" data-toggle="modal" data-target="#myModal">Request Free Estimate</button>
         </div>
 
-          <!-- Modal -->
-          <div id="myModal" class="modal fade" role="dialog">
-            <div class="modal-dialog">
+        <!-- Modal -->
+        <div id="myModal" class="modal fade" role="dialog">
+          <div class="modal-dialog">
 
-              <!-- Modal content-->
-              <div class="modal-content">
-                <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal">×</button>
-                  <h4 class="modal-title">Free Estimate Request</h4>
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">×</button>
+                <h4 class="modal-title">Free Estimate Request</h4>
+              </div>
+
+              <div class="modal-body">
+                <form role="form" method="post" id="reused_form">
+                  <p>
+                    Send your message in the form below and we will get back to you as early as possible.
+                  </p>
+
+                  <div class="form-group">
+                    <label for="name">
+                      Name:</label>
+                    <input type="text" class="form-control" id="name" name="name" required maxlength="50">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="number">
+                      Phone Number:</label>
+                    <input type="number" class="form-control" id="number" name="number" required maxlength="15">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="email">
+                      Email:</label>
+                    <input type="email" class="form-control" id="email" name="email" required maxlength="50">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="message">
+                      Message:</label>
+                    <textarea class="form-control" type="textarea" name="message" id="message" placeholder="Please describe your project" maxlength="6000" rows="7"></textarea>
+                  </div>
+
+                  <button type="submit" class="btn btn-lg btn-dark btn-block" id="btnContactUs">Send</button>
+                </form>
+
+                <div id="success_message" style="width:100%; height:100%; display:none; ">
+                  <h3>Sent your message successfully!</h3>
                 </div>
 
-                <div class="modal-body">
-                  <form role="form" method="post" id="reused_form">
-                    <p>
-                      Send your message in the form below and we will get back to you as early as possible.
-                    </p>
-
-                    <div class="form-group">
-                      <label for="name">
-                        Name:</label>
-                      <input type="text" class="form-control" id="name" name="name" required maxlength="50">
-                    </div>
-
-                    <div class="form-group">
-                      <label for="number">
-                        Phone Number:</label>
-                      <input type="number" class="form-control" id="number" name="number" required maxlength="15">
-                    </div>
-
-                    <div class="form-group">
-                      <label for="email">
-                        Email:</label>
-                      <input type="email" class="form-control" id="email" name="email" required maxlength="50">
-                    </div>
-
-                    <div class="form-group">
-                      <label for="message">
-                        Message:</label>
-                      <textarea class="form-control" type="textarea" name="message" id="message" placeholder="Please describe your project" maxlength="6000" rows="7"></textarea>
-                    </div>
-
-                    <button type="submit" class="btn btn-lg btn-dark btn-block" id="btnContactUs">Send</button>
-                  </form>
-
-                  <div id="success_message" style="width:100%; height:100%; display:none; ">
-                    <h3>Sent your message successfully!</h3>
-                  </div>
-
-                  <div id="error_message" style="width:100%; height:100%; display:none; ">
-                    <h3>Error</h3>
-                    Sorry there was an error sending your form.
-                  </div>
+                <div id="error_message" style="width:100%; height:100%; display:none; ">
+                  <h3>Error</h3>
+                  Sorry there was an error sending your form.
                 </div>
               </div>
+            </div>
           </div>
         </div>
 
@@ -252,10 +252,10 @@
   <section class="white-section" id="aboutus">
     <div class="container-fluid">
       <h3>Why Choose Us?</h3>
-      <p>
-        J&S Services, LLC exists to help homeowners with repairs and maintenance in their homes. J&S (Jones and Son) is a Disabled Veteran owned and operated family business located in Clarksville, Tennessee. With years of experience repairing and
+      <p>J&S Services, LLC exists to help homeowners with repairs and maintenance in their homes. J&S (Jones and Son) is a Disabled Veteran owned and operated family business located in Clarksville, Tennessee. With years of experience repairing and
         maintaining homes, J&S stands ready to help you with projects you don’t have the time, tools, or the experience to handle on your own. Our core values of Service, Excellence, and Integrity guide our practices and guarantee you will have the
         best service and a level of craftsmanship that exceeds your expectations.
+
         Whether it is painting, flooring, decking, fencing, or any of dozens of other projects you may need help with, J&S Services is here to help you. Give us a call, send us an email, or contact us through Messenger, we will schedule an
         appointment to meet with you and discuss your project. All estimates are free and accurate. My promise to you is simple, we will do the work for you like we were doing it for our parents.
         We look forward to hearing from you.
@@ -334,8 +334,8 @@
             </div>
           </div>
         </div>
+      </div>
     </div>
-  </div>
 
   </section>
 
