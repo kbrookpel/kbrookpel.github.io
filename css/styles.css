@@ -7,10 +7,16 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Cambria";
+  font-weight:bold;
+}
+
+h4 {
+  color:#235784;
 }
 
 p {
   color: #fff;
+  font-size:1.1rem;
 }
 
 a {
@@ -201,8 +207,9 @@ color:black;
 }
 
 .testimonial-text {
-  font-size: 2.5rem;
+  font-size: 2rem;
   line-height: 1.5;
+  padding:auto 20%;
 
 }
 
@@ -216,7 +223,7 @@ color:black;
 /* CTA Section */
 #cta {
   background-color:#900c3f;
-  padding:0 5%;
+  padding:0 20%;
 }
 
 #cta .big-heading {
@@ -226,6 +233,7 @@ color:black;
 .contact-button {
   margin-top:10px;
   padding:1% 5%;
+  background-color:#235784;
 }
 
 /* Footer Section */
