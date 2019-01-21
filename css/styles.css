@@ -223,7 +223,7 @@ color:black;
 /* CTA Section */
 #cta {
   background-color:#900c3f;
-  padding:0 20%;
+  padding:0 5%;
 }
 
 #cta .big-heading {
@@ -253,5 +253,9 @@ color:black;
   .title-image {
     position: static;
     transform: rotate(0);
+  }
+
+  #aboutus p {
+    font-size:1.5rem;
   }
 }
