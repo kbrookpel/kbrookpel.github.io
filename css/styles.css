@@ -74,7 +74,7 @@ a:hover {
 }
 
 .navbar {
-  padding: 0 0 4.5rem;
+  padding: 0 0 1rem;
 }
 
 .logo {
@@ -90,6 +90,7 @@ a:hover {
 .nav-link {
   font-size: 1.5rem;
   font-family: "Cambria";
+  font-weight:bold;
   color: #fff !important;
   text-shadow: 5px 2px 5px #000;
 }
@@ -252,10 +253,13 @@ p {
   font-size:1.2rem;
 }
 
+.nav-link {
+  font-size:1.2rem;
+}
   .phone {
     margin-top: 10px;
     padding-left: 20px;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-shadow: 5px 2px 5px #000;
   }
 
@@ -269,7 +273,7 @@ p {
   font-size:1.1rem;
 }
   .navbar {
-    padding-bottom:0;
+    padding-bottom:1%;
   }
 
 .fa-4x {
