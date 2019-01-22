@@ -222,14 +222,80 @@ a:hover {
 
 /* Scaling */
 @media (max-width: 997px) {
-  .logo {
-    width: 30%;
+
+.logo {
+  display:none;
+}
+
+h2 {
+  font-size:1.6rem;
+}
+
+h3 {
+  font-size:1.6rem;
+}
+
+.service-title {
+  font-size:1.2rem;
+}
+
+p {
+  font-size:1rem;
+}
+
+#aboutus p {
+  line-height:1.5;
+  padding:3% 0;
+}
+
+.testimonial-text {
+  font-size:1.3rem;
+}
+
+  .phone {
+    margin-top: 10px;
+    padding-left: 20px;
+    font-size: 1.5rem;
+    text-shadow: 5px 2px 5px #000;
+  }
+
+  .estimate-button {
+    margin: 3% 3% 5% 0;
+    padding: 2% 18%;
+    font-size:1.2rem;
+  }
+
+.contact-button {
+  font-size:1.2rem;
+}
+  .navbar {
+    padding-bottom:0;
+  }
+
+.fa-4x {
+  font-size:3em !important;
+}
+  .navbar-toggler {
+    positon:relative;
+  }
+
+  .big-heading {
+    font-size:2rem;
   }
 
   .title-image {
     margin: auto;
   }
+
+  #title .container-fluid {
+    padding: 3% 15% 1%;
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-position: center;
+  }
 }
+
+
 
 /* Gallery Section */
 #gallery {
