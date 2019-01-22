@@ -6,8 +6,6 @@
   <title>J&S Services, LLC</title>
   <link rel="icon" href="favicon.ico">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Ubuntu|Poppins|Racing+Sans+One:800" rel="stylesheet">
 
   <!-- CSS Stylesheets -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
@@ -34,8 +32,8 @@
     <div class="container-fluid">
 
       <!-- Nav Bar -->
-      <nav class="navbar navbar-expand-lg navbar-dark">
 
+      <nav class="navbar navbar-expand-lg navbar-dark">
         <img class="logo" src="images/Logo.png">
         <p class="phone">
           <span itemprop="telephone">Call Us <a class="fas fa-phone" href="tel:+12313139202"> 231-313-9202</a></span></p>
@@ -56,7 +54,9 @@
             <li class="nav-item">
               <a class="nav-link" href="#aboutus">About Us</a>
             </li>
-
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
           </ul>
 
         </div>
@@ -183,7 +183,7 @@
         </div>
 
         <div class="service-box col-lg-3 col-sm-6">
-          <i class="icon fas fa-home fa-4x"></i>
+          <i class="icon fas fa-kaaba fa-4x"></i>
           <h3 class="service-title">Decks</h3>
           <p>
             Custom Decks, Any Material
@@ -261,7 +261,7 @@
         We look forward to hearing from you.
       </p>
       <h4>
-        Check Us Out On <a href="https://www.facebook.com/pg/JSServicesHandyman">Facebook</a> For Before & Afters, Tips & Tricks, & More!
+        Check Us Out On <a href="https://www.facebook.com/pg/JSServicesHandyman">Facebook</a> For Before & Afters, Tips, Tricks, & More!
       </h4>
     </div>
   </section>
@@ -338,7 +338,29 @@
     </div>
 
   </section>
+  <!-- Back To Top Button -->
 
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
 
   <!-- Footer -->
 
