@@ -228,19 +228,19 @@ a:hover {
 }
 
 h2 {
-  font-size:1.6rem;
+  font-size:1.5rem;
 }
 
 h3 {
-  font-size:1.6rem;
+  font-size:1.5rem;
 }
 
 .service-title {
-  font-size:1.2rem;
+  font-size:1.1rem;
 }
 
 p {
-  font-size:1rem;
+  font-size:0.9rem;
 }
 
 #aboutus p {
@@ -249,7 +249,7 @@ p {
 }
 
 .testimonial-text {
-  font-size:1.3rem;
+  font-size:1.2rem;
 }
 
   .phone {
@@ -260,9 +260,9 @@ p {
   }
 
   .estimate-button {
-    margin: 3% 3% 5% 0;
-    padding: 2% 18%;
-    font-size:1.2rem;
+    margin: 3% 2% 5% 0;
+    padding: 2% 12%;
+    font-size:1rem;
   }
 
 .contact-button {
@@ -273,7 +273,7 @@ p {
   }
 
 .fa-4x {
-  font-size:3em !important;
+  font-size:2.5em !important;
 }
   .navbar-toggler {
     positon:relative;
