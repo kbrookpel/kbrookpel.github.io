@@ -227,11 +227,11 @@ a:hover {
   display:none;
 }
 
-h2 {
-  font-size:1.5rem;
+h4 {
+  font-size:1.2rem;
 }
 
-h3 {
+h2, h3{
   font-size:1.5rem;
 }
 
@@ -266,7 +266,7 @@ p {
   }
 
 .contact-button {
-  font-size:1.2rem;
+  font-size:1.1rem;
 }
   .navbar {
     padding-bottom:0;
@@ -280,7 +280,7 @@ p {
   }
 
   .big-heading {
-    font-size:2rem;
+    font-size:1.9rem;
   }
 
   .title-image {
